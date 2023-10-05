@@ -77,11 +77,23 @@ p {
    margin: 0.3em 0;
  }
 
- section :first-of-type{
-background-color: antiquewhite
- }
 
  footer{
    display: flex;
    justify-content: center;
  }
+
+
+main.home{
+   border: 0.2em double black;
+}
+
+main.earlywork {
+   border: 0.2em double black;
+}
+
+main.filmography {}
+
+main.exhibitions {
+   border: 0.2em double black;
+}
