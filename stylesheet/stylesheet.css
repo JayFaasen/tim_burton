@@ -57,9 +57,11 @@ ul {
 
 a {
    text-decoration: none;
+   border-radius: 1em;
+   padding: 0.15em;
+   background-color: rgb(172, 172, 172);
    color: black;
-   padding: 0.4em;
-
+   transition: 250ms
 }
 
 a:hover {
@@ -81,8 +83,13 @@ p {
  footer{
    display: flex;
    justify-content: center;
+   background-image: url("../images/background_pattern.jpg");
  }
 
+footer h3{
+   background-color: rgb(172, 172, 172);
+   height: 1.5em;
+} 
 
 main.home{
    border: 0.2em double black;
@@ -91,8 +98,6 @@ main.home{
 main.earlywork {
    border: 0.2em double black;
 }
-
-main.filmography {}
 
 main.exhibitions {
    border: 0.2em double black;
