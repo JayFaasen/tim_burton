@@ -1,0 +1,55 @@
+body {
+   color: rgb(4, 4, 28);
+   background-color: rgb(200, 198, 198);
+   font-size: 16px;
+   font-family: Helvetica, Arial, sans-serif;
+   margin: 50px;
+}
+
+header{
+   width: 100%;
+   background-color: rgb(172, 172, 172);
+   padding:  1em;
+}
+
+header nav ul li{
+   margin: auto;
+   list-style-type: none;
+   text-decoration: none;
+}
+
+header nav ul{
+   display: flex;
+}
+
+figcaption{
+   background-color: rgb(172, 172, 172);
+   color: rgb(4, 4, 28);
+   width: 30%;
+}
+
+h1 {
+   font-size: 2em;
+   text-align: center;
+   margin: 50px;
+ }
+
+h2 {
+   font-size: 1,6em;
+   margin: 50px
+ }
+
+
+ul {
+   list-style: none;
+ }
+ 
+
+a {
+   text-decoration: none;
+ }
+
+
+p {
+   margin: 50px;
+}
