@@ -8,8 +8,9 @@ body {
 header{
    width: 100%;
    background-color: rgb(172, 172, 172);
-   padding:  1em;
    background-image: url("../images/background_pattern.jpg");
+   padding-top: 1em;
+   padding-bottom: 1em;
 }
 
 header nav ul li{
@@ -21,14 +22,11 @@ header nav ul li{
 header a{
    background-color: rgb(172, 172, 172);
    border-radius: 1em;
+   font-size: 1.1em;
 }
 
 header nav ul{
    display: flex;
-}
-
-footer nav ul a{
-   background-color: blue;
 }
 
 figcaption{
@@ -61,26 +59,57 @@ a {
    padding: 0.15em;
    background-color: rgb(172, 172, 172);
    color: black;
-   transition: 250ms
+   transition: 250ms ease
 }
 
 a:hover {
    background-color: rgb(0, 7, 82);
    color: rgb(255, 247, 247);
-   font-size: 1.2em
+   font-size: 1.3em
 }
 
 p {
    margin: 3em;
 }
 
- section {
+section {
    border: 0.2em solid black;
    margin: 0.3em 0;
  }
 
+ main.home{
+   border: 0.2em double black;
+}
 
- footer{
+main.home h3{
+   padding-left: 2em;
+}
+
+main.earlywork {
+   border: 0.2em double black;
+}
+
+main.earlywork h3{
+   padding-left: 2em;
+}
+
+main.filmography{
+   border: 0.2em double black;
+}
+
+main.filmography h3{
+   padding-left: 2em;
+}
+
+main.exhibitions {
+   border: 0.2em double black;
+}
+
+main.exhibitions {
+   padding-left: 2em;
+}
+
+footer{
    display: flex;
    justify-content: center;
    background-image: url("../images/background_pattern.jpg");
@@ -91,14 +120,3 @@ footer h3{
    height: 1.5em;
 } 
 
-main.home{
-   border: 0.2em double black;
-}
-
-main.earlywork {
-   border: 0.2em double black;
-}
-
-main.exhibitions {
-   border: 0.2em double black;
-}
