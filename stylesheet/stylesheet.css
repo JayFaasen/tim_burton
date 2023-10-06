@@ -161,6 +161,12 @@ main.exhibitions{
 main.exhibitions h3{
    padding-left: 2em;
 }
+
+.exhibitions section:last-of-type{
+   display: flex;
+   justify-content: end;
+   flex-wrap: wrap;
+}
 /*exhibitions*/
 
 
