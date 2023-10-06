@@ -136,11 +136,11 @@ main.filmography section{
 
 
 .filmography section:nth-child(3){
-   background-color: rgb(92, 67, 217);
+   background-color: rgb(216, 139, 231);
 }
 
 .filmography section:nth-child(5){
-   background-color: rgb(92, 67, 217);
+   background-color: rgb(53, 222, 240);
 }
 
 .filmography section:last-of-type{
