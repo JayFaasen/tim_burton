@@ -1,3 +1,7 @@
+html{
+   scroll-behavior: smooth;
+}
+
 body {
    color: rgb(4, 4, 28);
    background-color: rgb(200, 198, 198);
@@ -21,8 +25,12 @@ header nav ul li{
 
 header a{
    background-color: rgb(172, 172, 172);
-   border-radius: 1em;
    font-size: 1.1em;
+   border-radius: 0.5em;
+}
+
+header a:hover{
+   background-color: rgb(74, 0, 116);
 }
 
 header nav ul{
@@ -32,52 +40,54 @@ header nav ul{
 figcaption{
    background-color: rgb(172, 172, 172);
    color: rgb(4, 4, 28);
-   width: 30%;
+   width: 40%;
 }
 
-h1 {
+h1{
    font-size: 2em;
    text-align: center;
    background-color: rgb(172, 172, 172);
    width: 40%
  }
 
-h2 {
+h2{
    font-size: 1,6em;
    padding: 0 2em
  }
 
 
-ul {
+ul{
    list-style: none;
  }
  
 
-a {
+a{
    text-decoration: none;
-   border-radius: 1em;
    padding: 0.15em;
+   border-radius: 0.5em;
    background-color: rgb(172, 172, 172);
    color: black;
    transition: 250ms ease
 }
 
-a:hover {
+a:hover{
    background-color: rgb(0, 7, 82);
    color: rgb(255, 247, 247);
    font-size: 1.3em
 }
 
-p {
+p{
    margin: 3em;
 }
 
-section {
+section{
    border: 0.2em solid black;
    margin: 0.3em 0;
  }
 
- main.home{
+
+/*home*/
+main.home{
    border: 0.2em double black;
 }
 
@@ -85,30 +95,76 @@ main.home h3{
    padding-left: 2em;
 }
 
-main.earlywork {
+.home section:first-of-type{
+   display: flex;
+   justify-content: start;
+   flex-flow: column wrap;
+}
+
+main.home section:last-of-type{
+   display: flex;
+   justify-content: end;
+   flex-wrap: wrap;
+}
+
+.home h3:last-of-type{
+padding-right: 3em;
+}
+/*home*/
+
+
+/*earlywork*/
+main.earlywork{
    border: 0.2em double black;
 }
 
 main.earlywork h3{
    padding-left: 2em;
 }
+/*earlywork*/
 
+
+/*filmography*/
 main.filmography{
    border: 0.2em double black;
+}
+
+main.filmography section{
+   display: flex;
+   flex-direction: row;
+}
+
+
+.filmography section:nth-child(3){
+   background-color:gray;
+}
+
+.filmography section:nth-child(5){
+   background-color:gray;
+}
+
+.filmography section:last-of-type{
+background-color: gray;
 }
 
 main.filmography h3{
    padding-left: 2em;
 }
+/*filmography*/
 
-main.exhibitions {
+
+/*exhibitions*/
+main.exhibitions{
    border: 0.2em double black;
 }
 
 main.exhibitions h3{
    padding-left: 2em;
 }
+/*exhibitions*/
 
+
+/*footer*/
 footer{
    display: flex;
    justify-content: center;
@@ -118,5 +174,25 @@ footer{
 footer h3{
    background-color: rgb(172, 172, 172);
    height: 1.5em;
-} 
+}
+/*footer end*/
 
+
+/*id*/
+#back-to-top{
+   position: fixed;
+   bottom: 2rem;
+   right: 2rem;
+   background-color: rgb(0, 7, 82);
+   color: rgb(255, 255, 255);
+   transition: 300ms ease;
+   border-radius: 0.3em;
+}
+
+#back-to-top:hover{
+   background-color: pink;
+   color: blueviolet;
+   border-radius: 1em;
+   font-size: 1.5em;
+}
+/*id*/
