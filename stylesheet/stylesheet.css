@@ -85,8 +85,6 @@ section{
    margin: 0.3em 0;
  }
 
-
-/*home*/
 main.home{
    border: 0.2em double black;
 }
@@ -108,12 +106,9 @@ main.home section:last-of-type{
 }
 
 .home h3:last-of-type{
-padding-right: 3em;
+   padding-right: 3em;
 }
-/*home*/
 
-
-/*earlywork*/
 main.earlywork{
    border: 0.2em double black;
 }
@@ -121,10 +116,7 @@ main.earlywork{
 main.earlywork h3{
    padding-left: 2em;
 }
-/*earlywork*/
 
-
-/*filmography*/
 main.filmography{
    border: 0.2em double black;
 }
@@ -133,7 +125,6 @@ main.filmography section{
    display: flex;
    flex-direction: row;
 }
-
 
 .filmography section:nth-child(3){
    background-color: rgb(216, 139, 231);
@@ -144,16 +135,13 @@ main.filmography section{
 }
 
 .filmography section:last-of-type{
-background-color: rgb(92, 67, 217);
+   background-color: rgb(92, 67, 217);
 }
 
 main.filmography h3{
    padding-left: 2em;
 }
-/*filmography*/
 
-
-/*exhibitions*/
 main.exhibitions{
    border: 0.2em double black;
 }
@@ -167,10 +155,11 @@ main.exhibitions h3{
    justify-content: end;
    flex-wrap: wrap;
 }
-/*exhibitions*/
 
+.exhibitions section:last-of-type h3{
+   padding-right: 2em;
+}
 
-/*footer*/
 footer{
    display: flex;
    justify-content: center;
@@ -181,10 +170,7 @@ footer h3{
    background-color: rgb(172, 172, 172);
    height: 1.5em;
 }
-/*footer end*/
 
-
-/*id*/
 #back-to-top{
    position: fixed;
    bottom: 2rem;
@@ -201,4 +187,3 @@ footer h3{
    border-radius: 1em;
    font-size: 1.5em;
 }
-/*id*/
